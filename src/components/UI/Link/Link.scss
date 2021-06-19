@@ -1,0 +1,15 @@
+.link {
+  display: inline-block;
+  font-size: 18px;
+  color: $font-color;
+  border-bottom: 1px solid transparent;
+  transition: all 0.3s ease 0s;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &.active {
+    border-bottom: 1px solid $minor;
+  }
+}

@@ -1,0 +1,23 @@
+@import './vars';
+@import './main';
+
+//COMPONENT
+@import '../../components/Layout/Header/Header';
+@import '../../components/Layout/Footer/Footer';
+@import '../../components/Post/Post';
+@import '../../components/Loader/Loader';
+@import '../../components/FullPost/FullPost';
+@import '../../components/NewPost/NewPost';
+@import '../../components/Error/Error';
+
+//UI
+@import '../../components/UI/Button/Button';
+@import '../../components/UI/Input/Input';
+@import '../../components/UI/Link/Link';
+@import '../../components/UI/Textarea/Textarea';
+@import '../../components/UI/Select/Select';
+
+//CONTAINERS
+@import '../../containers/Home/Home';
+@import '../../containers/Add/Add';
+@import '../../containers/OpenPost/OpenPost';

@@ -1,0 +1,31 @@
+.new-post {
+  flex: 0 1 100%;
+
+  &__inner {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 22px;
+    background: rgba($main-sec, 0.3);
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba($minor, 0.8);
+  }
+
+  &__title {
+    margin: 0 0 30px;
+    font-weight: 700;
+    font-size: 22px;
+    color: $font-color;
+  }
+
+  .input {
+    max-width: 200px;
+  }
+
+  .textarea {
+    max-width: 200px;
+  }
+
+  .select {
+    max-width: 200px;
+  }
+}
